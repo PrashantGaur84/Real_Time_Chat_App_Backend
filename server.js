@@ -8,7 +8,7 @@ const server = createServer(app);
 
 const io = new Server(server , {
     cors:{
-        origin:"real-t-ime-chat-app-frontend.vercel.app",
+        origin:"https://real-t-ime-chat-app-frontend.vercel.app/",
         methods:["GET" , "PUT"],
         credentials:true,
     }
